@@ -127,5 +127,12 @@
     <div class="main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, blanditiis eligendi magnam. Quo, unde tenetur optio eaque debitis doloremque tempora porro laborum nihil molestias enim minima iure quod beatae repudiandae illum dolorum odit assumenda voluptas omnis in reprehenderit velit consectetur a deserunt totam quas quibusdam facilis aut mollitia perferendis ipsam!</div>
     <div class="aside">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, rerum, quam, voluptate rem perspiciatis pariatur quod earum ipsa asperiores molestiae nemo praesentium accusamus explicabo nobis delectus ex cum adipisci vel obcaecati deleniti unde incidunt labore beatae! Consectetur, saepe ipsa vel accusamus sed dolorum temporibus fuga fugit dicta aut provident incidunt.</div>
   </div>
+  <div class="cards">
+    <div class="card">
+      <img src="" alt="">
+      <h4>Елмо</h4>
+      <p>Работник месяца</p>
+    </div>
+  </div>
 </body>
 </html>
