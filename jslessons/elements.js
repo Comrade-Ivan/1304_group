@@ -110,3 +110,26 @@ function removeClass1() {
 function removeClass2() {
   classParagraph.classList.remove("mt-3");
 }
+
+//Как узнать что делать с элементом?
+//Какой из инструментов использовать?
+// 1. Изменение стилей (.style.) - Изменить стили CSS. (Цвета, позиционирование и расположение, отступы. 2 часть, раздел 1.8.)
+// 2. Работа с атрибутами (.getAttribute() .setAttribute())
+// - src href value
+// elem.value .getAttribute("src") .setAttribute("src", "img/banana.jpg") 2 часть раздел 1.6
+// Или необходима дополнительная информация об элементе (например ID из базы данных). В таком случае мы добавляем элементу собственные атрибуты. 2 часть. раздел 1.6
+// 2.1 Работа с классами (.classList .className). 2 часть, раздел 1.8.
+// 3. Внутреннее содержимое (.innerHTML) 
+// 4. Изменение документа (создать/удалить/переместить элемент)
+// let array = ["Яблоко", "Банан", "Груша"];
+
+// checkGreen(array);
+// function checkGreen(fruits) {
+//   for(let i = 0; i < fruits.length; i++) {
+//     if (fruits[i] == "Яблоко") {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
+
