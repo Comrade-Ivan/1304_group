@@ -17,7 +17,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class="p-2">
     <h1>События</h1>
     <h2>Способы повесить события</h2>
     <table border="1">
@@ -39,6 +39,25 @@
         </td>
       </tr>
     </table>
+    <h2 class="mt-2"><i class="bold text-info">this</i> в событиях</h2>
+    <div class="card">
+      <img src="https://vtorrevieje.com/wp-content/uploads/2019/01/banan.jpg" alt="">
+      <button class="btn btn-info this-button">Что вернет нам this?</button>
+    </div>
+    <button class="btn btn-info this-lost-button mt-3">Не теряем this</button>
+    <h2>Объект события event</h2>
+    <button class="btn btn-info event-button mt-3">Получаем объект события</button>
+    <div class="div-button mt-2 p-2" style="background: rgba(0,0,0,.7)">
+      <img src="https://vtorrevieje.com/wp-content/uploads/2019/01/banan.jpg" alt="" style="width: 100px; height: 100px; border-radius: 50%;">
+      <span class="ml-4 text-white">Банан - 100руб</span>
+    </div>
+    <div>
+      <img src="https://vtorrevieje.com/wp-content/uploads/2019/01/banan.jpg" alt="" class="event-image">
+      <form action="" class="event-form">
+        <input type="text">
+        <input type="submit">
+      </form>
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="events.js"></script>
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
