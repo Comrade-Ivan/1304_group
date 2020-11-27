@@ -23,7 +23,7 @@
   $result = $mysqli->query("INSERT INTO `products`(`name`, `price`, `short_description`, `full_description`, `image_src`) VALUES ('$name', '$price', '$shortDescription', '$fullDescription', '$imageSrc')");
   
   if($result) {
-    exit("ok");
+    exit("Товар $name успешно добавлен");
   } else {
     exit("Не удалось добавить товар");
   }

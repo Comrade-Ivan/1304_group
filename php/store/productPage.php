@@ -14,7 +14,7 @@ require_once("header.php");
         </div>
         <div class="col-6" style="background: url(<?= $product['image_src']?>) 50%/50%; background-size: cover;"></div>
         <div class="col-6 text-right">
-          <small>ID:<?= $product['id']?></small>
+          <small>ID: <span class="product-id"><?= $product['id']?></span></small>
           <h2><?= $product['name']?></h2>
           <h3><?= $product['price']?>руб.</h3>
           <p><?= $product['full_description']?></p>
@@ -22,4 +22,18 @@ require_once("header.php");
         </div>
       </div>
     </div>
+<script>
+  /*
+  Объекты хранилища localStorage и sessionStorage предоставляют одинаковые методы и свойства:
+
+  setItem(key, value) – сохранить пару ключ/значение.
+  getItem(key) – получить данные по ключу key.
+  removeItem(key) – удалить данные с ключом key.
+  clear() – удалить всё.
+  key(index) – получить ключ на заданной позиции.
+  length – количество элементов в хранилище.
+  */
+  let idElement = document.querySelector(".product-id");
+  localStorage.setItem("lastSeenID", idElement.innerHTML); //Записываем ID просматриваемого товара в localStorage
+</script>
 <? require_once("footer.php"); ?>
